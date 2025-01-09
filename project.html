@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Modern Layout</title>
+    <link rel="stylesheet" href="styles14.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+        }
+        .container {
+            width: 100%;
+            margin: 50px auto;
+            background-color:beige;
+            background-image: linear-gradient(to bottom right,beige,burlywood);
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .topnav a {
+  color:black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background:wheat;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color:rgb(239, 176, 92);
+  color: black;
+}
+
+.active {
+  background-color:rgb(216, 154, 73);
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color:wheat;
+  position: relative;
+margin-top: auto;}     
+#h1{margin-top: 10%;}
+.header{background-color: burlywood;}
+
+
+
+.contact-info {
+            text-align: center;
+            margin: 20px 0;
+            border-top: 1px dotted black;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        #i1{width: 75%;
+       border-style: dotted;
+       margin-top: 5%;}
+       #h3{margin-top: 30%;}
+       #p3{margin-top: -3%;
+      margin-right: 1%;}
+       #p4{margin-top: -2%;}
+#p5{margin-left: 75%;
+margin-top: -3%;}
+       @media only screen and (max-width: 500px) {#p1{width: 75%;
+        text-align: center;
+font-size: small;}
+.container{width: 100%;}
+      }
+
+
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="mobile-container">            <div class="topnav">
+                <a href="index.html" class="active">Pradnya Sawant</a>
+                <div id="myLinks">
+                  <a href="resum.html">Resume</a>
+                  <a href="project.html">Projects</a>
+                  <a href="contact.html">Contacts</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div></div>
+
+             
+
+        </div> <h1>Projects</h1>
+        <h3><b>1.Zomato website</h3></b>
+        <p id="p1"><a href="https://pradnyapawar1996.github.io/copy-zomato/">https://pradnyapawar1996.github.io/copy-zomato/</p></a><br>
+        <p id="p2">
+          <ul>
+            <li><b>User interface:</b> Clean user freiendly designs showcasing nearby restaurants
+              the home page often includes search bar,cuisine search,location or restaurants name.
+            </li>
+            <li><b>Restaurants listings:</b>Pages with deatils about restaurants menu items,user reviews ,delivery options and contact information</li>
+         
+          <li><b>Food ordering system:</b>A system allowing users to order food online either for delivery or takeaway</li>
+        <li><b>frontend:</b>HTML,CSS, javascript</li>
+        <li><b>database:</b>MySQL</li> </ul>
+
+        <img id="i1" src="Screenshot (16).png"></p><br>
+
+
+        <h3><b>2.Healthcare website</h3></b>
+        <p id="p1"><a href="https://pradnyapawar1996.github.io/healthcare/">https://pradnyapawar1996.github.io/healthcare/</a></p><br>
+       <p id="p2">
+        <ul>
+          <Li><b>Responsive Design:</b> Ensure the website is mobile-friendly and adapts to various screen sizes, as many users may access it from smartphones or tablets.</Li>
+          <li><b>frontend:</b>HTML,CSS, javascript</li>
+          <li><b>database:</b>MySQL</li> 
+       
+        </ul>
+      
+        <img id="i1" src="Screenshot (18).png"> </p><br>
+
+        <h3><b>3.Softlogics website</h3></b>
+        <p id="p1"><a href=" https://pradnyapawar1996.github.io/softlogics/"> https://pradnyapawar1996.github.io/softlogics/</a>
+        <ul>
+          <li><b>Intuitive Navigation:</b> Review if the website’s navigation is intuitive and easy to use, ensuring users can find what they need quickly.</li>
+          <li><b>Consistent Design:</b> Ensure the design is consistent across different pages and sections, including fonts, colors, and layout styles.</li>
+          <li><b>frontend:</b>HTML,CSS, javascript</li>
+          <li><b>database:</b>MySQL</li> 
+       
+        </ul>
+        
+        
+        <img id="i1" src="Screenshot (17).png"></p>
+
+
+        <div class="contact-info">
+            <p id="p1"><b>Email: pradnyapawar37.com</b></p>
+            <p id="p4"><b>Phone: 8554859002</b></p>
+            <p id="p3"><b>linkedin:linkedin.pradnyapawar</b></p>
+        </div>
+
+        
+
+        <div class="footer">
+            <p>© 2024 Pradnya Sawant</p>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+        </script>
+        
+</body>
+</html>
+

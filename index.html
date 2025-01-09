@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Modern Layout</title>
+    <link rel="stylesheet" href="styles12.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eaeaea;
+        }
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #fff;
+            
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            background-color:bisque;
+            color: black;
+            padding: 30px;
+            text-align: center;
+        }
+        .header img {
+            border-radius: 50%;
+            width: 420px;
+            height: 420px;
+            margin-bottom: 20px;
+            filter: grayscale(80%);
+            margin-left: -50%;
+            margin-top: 0%;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            margin-top: -30%;
+            margin-left: 30%;
+        }
+        .header h3 {
+            margin: 10px 0;
+            font-size: 1.3em;
+            margin-left: 20%;
+        }
+        .header p{text-align: justify;
+        width: 50%;
+    margin-left: 50%;}
+        .contact-info {
+            text-align: center;
+            margin: 20px 0;
+            border-top: 1px dotted black;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+      #p1{margin-top: 10%;
+    text-align: start;}
+    #p2{margin-top: -2%;
+    text-align: center;}
+    #p4{margin-top:-3%;
+    text-align: end;}
+    
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #777;
+        }
+        .circle {
+            width: 150px;
+            height: 150px;
+            background-color: #db3934;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-left: 50%;
+        }
+        .circle2 {
+            width: 150px;
+            height: 150px;
+            background-color: #db7734;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-left: 67%;
+            margin-top: -15%;
+        }
+        .circle3 {
+            width: 150px;
+            height: 150px;
+            background-color: #dbb434;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-left: 85%;
+            margin-top: -15%;
+        }
+        .topnav a {
+  color:black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background:wheat;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.topnav a:hover {
+  background-color:bisque;
+  color: black;
+}
+
+.active {
+  background-color:burlywood;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  background-color:wheat;
+  position: relative;
+margin-top: auto;}     
+        @media only screen and (max-width: 500px) {
+            .header img{width: 50%;
+            height: 50%;
+        margin-top:10%;
+    margin-left:8%;
+    
+    }
+   #h1{color:#fff ;}
+   #icon {background-color: #d89f79;}
+    .topnav a{background-color: #d89f79;}
+    .active{ background-color:rgb(241, 196, 112);}
+    .topnav #myLinks{background-color:#d3af97; ;}
+    .circle{font-size: large;}
+    .circle2{font-size: large;}
+    .circle3{font-size: large;}
+    .contact-info{text-align: center;}
+  @keyframes mymove {
+  from {bottom: 0px;}
+  to {top: 200px;}
+}
+            .header h1{font-size: 100%;
+            margin-top: 5%;
+        margin-left: -10%;
+      color:bisque ;}
+            .header h3{margin-left: 0%;
+            margin-top: 50%;}
+            .header p{text-align: justify;
+            width: 100%;
+        margin-left: 0%;
+    margin-top: 5%;}
+        .circle{margin-left: -10%;
+            width: 90px;
+            height: 90px;
+        margin-top: -150%;
+        position: relative;
+  }
+        .circle2{margin-left: 30%;
+            width: 90px;
+            height: 90px;
+            margin-top: -32%;position: relative;
+ }
+        .circle3{margin-left:70%;
+            width: 90px;
+            height: 90px;
+            margin-top: -32%;
+            position: relative;
+ }
+        #p1{text-align: center;}
+        .container{width: 100%;}
+        .footer{margin-top: 10%;}
+        .contact-info{margin-top: 100%;
+        text-align: center;}
+ #p2{margin-left: -10%;}
+ #p4{margin-right: 15%;}
+.topnav {
+  overflow: hidden;
+  background-color:wheat;
+  position: relative;
+  margin-top: 5%;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color:black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background:wheat;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #c2edea;
+  color: black;
+}
+
+.active {
+  background-color:rgb(240, 206, 145);
+  color: white;
+}}
+#counter {
+        font-size: 1em;
+        font-weight: bold;
+        color: #333;
+        margin-top: 7%;
+    } 
+    .mylinks{margin-top: 5%;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="mobile-container">            <div class="topnav">
+                <a href="index.html" class="active">Pradnya Sawant</a>
+                <div id="myLinks">
+                  <a href="resum.html">Resume</a>
+                  <a href="project.html">Projects</a>
+                  <a href="contact.html">Contacts</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" style="background-color: #d89f79; " onclick="myFunction()">
+                  <i class="fa fa-bars "></i>
+                </a>
+              </div></div>
+            <img style="margin-top: 5%;" src="Screenshot (1).png" alt="Your Photo">
+
+        
+            <h1>Pradnya Sawant</h1>
+            <h3>A short introduction</h3>
+            <p>I am a highly motivated and results-driven professional , I excel in delivering high-quality work, collaborating with diverse teams, and solving complex problems. I am passionate and seek opportunities to grow and contribute to meaningful projects. My goal is to leverage my skills in IT industry to drive success and make a positive impact.</p>
+       
+        
+        <div class="circle"><a href="resum.html">
+          Resume
+        </div></a>
+        <div class="circle2"><a href="project.html">
+        Projects<div id="counter">1</div> 
+          </div></a>
+          <div class="circle3"><a href="contact.html">
+          Contacts
+          </div></a>
+        </div>
+
+        <div class="contact-info">
+            <p id="p1"><b>Email: pradnyapawar37.com</b></p>
+            <p id="p2"><b>Phone: 8554859002</b></p>
+            <p id="p4"><b>linkedin:linkedin.pradnyapawar</b></p>
+        </div>
+
+        
+
+        <div class="footer">
+            <p>© 2024 Pradnya Sawant</p>
+        </div>
+    </div>
+
+
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+
+        function startCounter() {
+            let counter = 1;  // Initial value of the counter
+            const counterElement = document.getElementById('counter');  // Get the counter display element
+
+            // Set an interval to increment the counter every second (1000 milliseconds)
+            const intervalId = setInterval(() => {
+                counterElement.textContent = counter;  // Update the counter text
+                counter++;  // Increment the counter by 1
+
+                // Stop the counter when it reaches 5
+                if (counter > 3) {
+                    clearInterval(intervalId);  // Clear the interval to stop the counting
+                }
+            }, 1000);  // 1000 milliseconds = 1 second
+        }
+
+        // Example usage
+        startCounter();  
+        </script>
+        
+</body>
+</html>
